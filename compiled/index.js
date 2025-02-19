@@ -1,24 +1,13 @@
 "use strict";
 // 1. Enum
 // 1. Topshiriq:
-// enum Colors {
-//   Red = 'qizil',
-//   Green = 'green',
-//   Blue = 'blue',
-// }
-// function getColor(color: Colors): string {
-//   switch (color) {
-//     case Colors.Red:
-//       return 'Qizil rang';
-//     case Colors.Green:
-//       return 'Yashil';
-//     case Colors.Blue:
-//       return 'Ko`k';
-//     default:
-//       return 'Bunday rang mavjud emas';
-//   }
-// }
-// console.log(getColor(Colors.Red));
+var Colors;
+(function (Colors) {
+    Colors["Red"] = "red";
+    Colors["Green"] = "green";
+    Colors["Blue"] = "blue";
+})(Colors || (Colors = {}));
+console.log(Colors.Red);
 // 2. Interface
 // 2. Topshiriq:
 // interface Car {

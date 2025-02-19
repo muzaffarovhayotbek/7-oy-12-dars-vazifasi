@@ -1,24 +1,12 @@
 // 1. Enum
 // 1. Topshiriq:
-// enum Colors {
-//   Red = 'qizil',
-//   Green = 'green',
-//   Blue = 'blue',
-// }
+enum Colors {
+  Red = 'red',
+  Green = 'green',
+  Blue = 'blue',
+}
 
-// function getColor(color: Colors): string {
-//   switch (color) {
-//     case Colors.Red:
-//       return 'Qizil rang';
-//     case Colors.Green:
-//       return 'Yashil';
-//     case Colors.Blue:
-//       return 'Ko`k';
-//     default:
-//       return 'Bunday rang mavjud emas';
-//   }
-// }
-// console.log(getColor(Colors.Red));
+console.log(Colors.Red);
 
 // 2. Interface
 // 2. Topshiriq:
@@ -52,7 +40,6 @@
 //   workplace: 'Microsoft',
 // };
 // console.log(res);
-
 
 // 4. Massiv
 // 6. Topshiriq:
@@ -95,7 +82,6 @@
 // console.log(res);
 
 // 7. Tuple
-
 // 12. Topshiriq:
 // type PersonType [string , number, string]
 // let person : PersonType = ['John', 16, 'hayotbek@gmail.com']
